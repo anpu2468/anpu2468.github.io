@@ -1,4 +1,4 @@
-import {defaultExport}  from './js/generators.js';
+import { default }  from './js/generators.js';
 let player = {
   cash: 0,
 }
