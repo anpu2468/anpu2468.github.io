@@ -1,4 +1,4 @@
-import generators from './js/generators.js';
+import './js/generators.js';
 
 let player = {
   cash: 0,
