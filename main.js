@@ -1,7 +1,8 @@
+import generators from '.js/generators.js'
 let player = {
   cash: 0,
 }
-import generators from '.js/generators.js'
+
 player.generators = generators
 console.log(player.generators)
 function updateGUI(GUI) {
