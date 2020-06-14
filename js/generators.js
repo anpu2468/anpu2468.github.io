@@ -15,4 +15,4 @@ function createGenerators(gen) {
 
 }
 createGenerators([[10, 0.5, 20, "The Intern"]])
-export {generators as default}
+export { generators }
