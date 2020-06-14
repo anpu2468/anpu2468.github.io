@@ -23,4 +23,4 @@ let generators = [{
 createGenerators([[10, 0.5, 20, "The Intern"]])*/
 
 //make createGenerators work, currently kind of broken
-export { generators }
+export default generators
