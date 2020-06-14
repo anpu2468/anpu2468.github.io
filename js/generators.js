@@ -1,6 +1,12 @@
 
-let generators = []
-function createGenerators(gen) {
+let generators = [{
+  cost:10,
+  production:0.5,
+  costIncrease:20,
+  name:"the Intern",
+  amount: 0
+}]
+/*function createGenerators(gen) {
   for (let i in gen) {
     let generator = {
       cost: gen[i][0],
@@ -14,5 +20,7 @@ function createGenerators(gen) {
   }
 
 }
-createGenerators([[10, 0.5, 20, "The Intern"]])
+createGenerators([[10, 0.5, 20, "The Intern"]])*/
+
+//make createGenerators work, currently kind of broken
 export { generators }
